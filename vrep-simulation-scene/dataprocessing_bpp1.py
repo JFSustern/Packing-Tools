@@ -167,7 +167,7 @@ class LoadBoxCreator(BoxCreator):
         self.box_index += 1
 
 loadData = True
-loadURL = 'selected_obb1.npy'
+loadURL = 'online_bpp1.npy'
 
 if loadData:
     trajs = np.load(loadURL,allow_pickle=True)
